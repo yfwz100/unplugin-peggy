@@ -4,6 +4,11 @@
   "description": "The unplugin for Peggy (aka PEG.js). ",
   "main": "dist/plugin.js",
   "module": "dist/plugin.mjs",
+  "homepage": "https://github.com/yfwz100/unplugin-peggy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yfwz100/unplugin-peggy.git"
+  },
   "scripts": {
     "build": "rollup -c --configPlugin ts",
     "test": "vitest"
