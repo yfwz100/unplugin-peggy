@@ -14,7 +14,7 @@
     "unplugin"
   ],
   "author": "Zhi <yfwz100@163.com>",
-  "license": "ISC",
+  "license": "MIT",
   "prettier": {
     "singleQuote": true,
     "quoteProps": "as-needed",
