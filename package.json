@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "The unplugin for Peggy (aka PEG.js). ",
   "main": "dist/plugin.js",
+  "module": "dist/plugin.mjs",
   "scripts": {
+    "build": "rollup -c --configPlugin ts",
     "test": "vitest"
   },
   "keywords": [
@@ -19,21 +21,22 @@
     "trailingComma": "es5",
     "editorconfig": true
   },
+  "dependencies": {
+    "unplugin": "^0.9.4"
+  },
+  "peerDependencies": {
+    "peggy": "^2.0.1"
+  },
   "devDependencies": {
     "@types/memory-fs": "^0.3.3",
     "memory-fs": "^0.5.0",
     "peggy": "^2.0.1",
     "prettier": "^2.7.1",
     "rollup": "^2.78.1",
+    "rollup-plugin-ts": "^3.0.2",
     "typescript": "^4.7.4",
     "unplugin": "^0.9.4",
     "vitest": "^0.22.1",
     "webpack": "^5.74.0"
-  },
-  "peerDependencies": {
-    "peggy": "^2.0.1"
-  },
-  "dependencies": {
-    "unplugin": "^0.9.4"
   }
 }
