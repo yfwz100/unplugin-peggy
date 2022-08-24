@@ -1,6 +1,6 @@
 {
   "name": "unplugin-peggy",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "description": "The unplugin for Peggy (aka PEG.js). ",
   "main": "dist/plugin.js",
   "module": "dist/plugin.mjs",
@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/yfwz100/unplugin-peggy.git"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c --configPlugin ts",
     "test": "vitest"
